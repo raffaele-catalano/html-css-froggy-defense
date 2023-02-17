@@ -2,4 +2,54 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Russo One', sans-serif;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.container {
+  width: 1000px;
+  height: 800px;
+  margin: 30px auto;
+  background-color: beige;
+  border: 3px solid rgb(0, 0, 131);
+  text-align: center;
+  padding: 5px;
+}
+
+.the-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #E74032;
+}
+
+header{
+  margin-bottom: 25px;
+}
+
+p {
+  color: #007ACC;
+}
+
+main {
+  display: flex;
+  width: 1000px;
+  height: 650px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.froggy {
+  align-self: flex-end;
+}
+
+.tower {
+  align-items: flex-start;
+}
+
+.box img{
+  width: 400px;
+  height: 400px;
 }
